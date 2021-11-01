@@ -85,5 +85,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Free Trial'
-              appName: '$(tailspin-space-game-1995)'
+              appName: '$(webappname)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
